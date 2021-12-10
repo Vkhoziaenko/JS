@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Javascript Task 1</title>
+  </head>
+  <body>
+    <div id="task_1">
+      <h3>Task 1</h3>
+      <b>Введите значение x:</b>
+      <input type="number" id="task_1_input" step="0.01" value="0">
+      <button onclick="CalcTask1()">Calculate</button>
+      <p><output id="task_1_output"></output></p>
+    <div>
+
+    <hr>
+
+    <div id="task_2">
+      <h3>Task 2</h3>
+      <p><b>Введите массу трёх гантелей:</b></p>
+      <input type="number" id="task_2_input_1" step="0.01" value="0">
+      <input type="number" id="task_2_input_2" step="0.01" value="0">
+      <input type="number" id="task_2_input_3" step="0.01" value="0">
+      <button onclick="CalcTask2()">Calculate</button>
+      <p><output id="task_2_output"></output></p>
+    <div>
+    
+    <hr>
+    
+    <div id="task_3">
+        <h3>Task 3</h3>
+        <p><b>Введите вашу фамилию:</b></p>
+        <input type="text" id="task_3_input">
+        <button onclick="CalcTask3()">Calculate</button>
+        <p><output id="task_3_output"></output></p>
+    <div>
+
+    <hr>
+
+    <div id="task_4">
+        <h3>Task 4</h3>
+        <p><b>Введите строку:</b></p>
+        <input type="text" id="task_4_input" maxlength="20">
+        <button onclick="CalcTask4()">Calculate</button>
+        <p><output id="task_4_output"></output></p>
+    <div>
+
+    <hr>
+
+    <div id="task_5">
+        <h3>Task 5</h3>
+        <p><b>Введите 2 числа:</b></p>
+        <input type="number" id="task_5_input_1" step="0.01" value="0">
+        <input type="number" id="task_5_input_2" step="0.01" value="0">
+        <p>Выберете арифметическое действие:</p>
+        <ol>
+          <li>Сложение</li>
+          <li>Вычитание</li>
+          <li>Умножение</li>
+          <li>Деление</li>
+        </ol>
+        <input type="number" id="task_5_input_3" min="1" max="4">
+        <button onclick="CalcTask5()">Calculate</button>
+        <p><output id="task_5_output"></output></p>
+    <div>
+
+    <hr>
+
+    <div id="task_6">
+        <h3>Task 6</h3>  
+        <p>  
+          <b>Введите значение тока:</b>
+          <input type="number" id="task_6_input_1" min="0">
+        </p>
+        <p>
+          <b>Введите значение напряжения:</b>
+          <input type="number" id="task_6_input_2" min="0">
+        </p>
+        <button onclick="CalcTask6()">Calculate</button>
+        <p><output id="task_6_output"></output></p>
+    <div>
+    
+    <hr>
+
+    <div id="task_7">
+        <h3>Task 7</h3>  
+        <p>  
+          <b>Введите сопротивление R1:</b>
+          <input type="number" id="task_7_input_1" min="0">
+        </p>
+        <p>
+          <b>Введите сопротивление R2:</b>
+          <input type="number" id="task_7_input_2" min="0">
+        </p>
+        <button onclick="CalcTask7()">Calculate</button>
+        <p><output id="task_7_output"></output></p>
+    <div>
+
+    <hr>
+
+    <div id="task_8">
+      <h3>Task 8</h3>  
+      <p>  
+        <p><b>Введите последовательность слов:</b></p>
+        <input type="text" id="task_8_input">
+      </p>
+      <button onclick="CalcTask8()">Calculate</button>
+      <p><output id="task_8_output"></output></p>
+    <div>
+    
+    <hr>
+
+    <div id="task_9">
+      <h3>Task 9</h3>  
+      <button onclick="CalcTask9()">Calculate</button>
+      <p><output id="task_9_output"></output></p>
+    <div>
+
+    <hr>
+
+    <div id="task_10">
+      <h3>Task 10</h3>  
+      <button onclick="CalcTask10()">Calculate</button>
+      <p><output id="task_10_output"></output></p>
+    <div>
+
+    <hr>
+
+    <div id="task_11">
+        <h3>Task 11</h3>
+        <p><b>Введите строку:</b></p>
+        <input type="text" id="task_11_input">
+        <button onclick="CalcTask11()">Calculate</button>
+        <p><output id="task_11_output_1"></output></p>
+        <p><output id="task_11_output_2"></output></p>
+        <p><output id="task_11_output_3"></output></p>
+    <div>
+
+    <hr>
+
+    <div id="task_12">
+        <h3>Task 12</h3>
+        <p><b>Введите строку:</b></p>
+        <input type="text" id="task_12_input">
+        <button onclick="CalcTask12()">Calculate</button>
+        <p><output id="task_12_output"></output></p>
+    <div>
+
+    <hr>
+
+    <div id="task_13">
+      <h3>Task 13</h3>
+      <p><b>Введите строку:</b></p>
+      <input type="text" id="task_13_input">
+      <button onclick="CalcTask13()">Calculate</button>
+      <p><output id="task_13_output"></output></p>
+    <div>
+
+    <hr>
+
+    <div id="task_14">
+      <h3>Task 14</h3>
+      <p>  
+        <b>Координата точки X:</b>
+        <input type="number" id="task_14_input_1" min="0">
+      </p>
+      <p>
+        <b>Координата точки Y:</b>
+        <input type="number" id="task_14_input_2" min="0">
+      </p> 
+      <p>  
+        <b>Координата центра Xc:</b>
+        <input type="number" id="task_14_input_3" min="0">
+      </p>
+      <p>
+        <b>Координата центра Yc:</b>
+        <input type="number" id="task_14_input_4" min="0">
+      </p>
+      <p>  
+        <b>Радиус окружности R:</b>
+        <input type="number" id="task_14_input_5" min="0">
+      </p>
+      <button onclick="CalcTask14()">Calculate</button>
+      <p><output id="task_14_output"></output></p>
+    <div>
+
+    <hr>
+
+    <div id="task_15">
+      <h3>Task 15</h3>  
+      <button onclick="CalcTask15()">Calculate</button>
+      <p><output id="task_15_output"></output></p>
+    <div>
+  
+    <hr>
+
+    <div id="task_16">
+      <h3>Task 16</h3>  
+      <p>  
+        <b>Введите начальную скорость полета V0:</b>
+        <input type="number" id="task_16_input_1" min="0">
+      </p>
+      <p>
+        <b>Введите впемя полёта t:</b>
+        <input type="number" id="task_16_input_2" min="0">
+      </p>
+      <button onclick="CalcTask16()">Calculate</button>
+      <p><output id="task_16_output"></output></p>
+    <div>
+
+    <hr>
+
+    <div id="task_17">
+        <h3>Task 17</h3> 
+        <p>
+            <b>Введите операцию:</b>
+            <input type="number" id="task_17_input" min="1">
+        </p> 
+        <button onclick="CalcTask17()">Calculate</button>
+        <p><output id="task_17_output"></output></p>
+    <div>
+    
+    <hr>
+
+    <div id="task_18">
+        <h3>Task 18</h3> 
+        <p>
+            <b>Количество чисел Фибоначчи равно:</b>
+            <input type="number" id="task_18_input" min="1">
+        </p> 
+        <button onclick="CalcTask18()">Calculate</button>
+        <p><output id="task_18_output"></output></p>
+    <div>
+
+    <hr>
+
+    <div id="task_19">
+        <h3>Task 19</h3>
+        <p><b>Введите строку:</b></p>
+        <input type="text" id="task_19_input">
+        <button onclick="CalcTask19()">Calculate</button>
+        <p><output id="task_19_output"></output></p>
+    <div>
+
+    <hr>
+
+    <div id="task_20">
+        <h3>Task 20</h3> 
+        <p>
+            <b>Введите размер массива n:</b>
+            <input type="number" id="task_20_input" min="1">
+        </p> 
+        <button onclick="CalcTask20()">Calculate</button>
+        <p><output id="task_20_output_1"></output></p>
+        <p><output id="task_20_output_2"></output></p>
+    <div>
+  
+    <hr>
+
+    <script src="script.js"></script>
+  </body>
+</html>
